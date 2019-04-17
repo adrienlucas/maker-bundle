@@ -8,6 +8,6 @@ class <?= $class_name ?> extends TestCase
 {
     public function testSomething()
     {
-        $this->assertTrue(true);
+        static::assertTrue(true);
     }
 }
