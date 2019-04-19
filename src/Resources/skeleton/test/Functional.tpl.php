@@ -2,9 +2,9 @@
 
 namespace <?= $namespace; ?>;
 
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use Symfony\Component\Panther\PantherTestCase;
 
-class <?= $class_name ?> extends WebTestCase
+class <?= $class_name ?> extends PantherTestCase
 {
     public function testSomething()
     {
